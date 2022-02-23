@@ -11,8 +11,8 @@ h2{
     font-weight: 900;
     text-align: center;
 }
-.orange-color{
-    color: orange;
+.purple-color{
+    color: rgb(156, 17, 156);
 }
 .flexible-container{
     display: flex;
@@ -27,7 +27,7 @@ h2{
 }
 .link-button{
     text-decoration: none;
-    background-image: linear-gradient(orange,tomato);
+    background-image: linear-gradient(rgb(233, 80, 233),plum);
     padding: 10px 40px;
     color: white;
     font-weight: 700;
@@ -45,3 +45,37 @@ h2{
     width: 55%;
     position: left;
 }
+.form{
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+.form-input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+ 
+#submit-btn{
+    width: 100%;
+    background-color: rgb(185, 61, 185);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+}
+footer{
+    text-align: center;
+    width:100%;
+    color: aliceblue;
+    background-color: black;
+    height: 150px;
+    margin-top: 50px;
+    position: absolute; 
+}  
+
